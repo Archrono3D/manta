@@ -13,7 +13,7 @@
 /**
  * Enable lives and the lives counter. The number next to the define is the number of lives you start with.
  */
-#define ENABLE_LIVES 4
+//#define ENABLE_LIVES 4
 
 /**
  * This can be 0..127.
@@ -63,7 +63,7 @@
 /**
  * Makes signs and NPCs easier to talk to.
  */
-// #define EASIER_DIALOG_TRIGGER
+#define EASIER_DIALOG_TRIGGER
 
 /**
  * Shows an "A" when Mario is able to talk [requires EASIER_DIALOG_TRIGGER].

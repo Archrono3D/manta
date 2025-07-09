@@ -20,12 +20,12 @@
 /**
  * Show a watermark on the title screen that reads "Made with HackerSM64", instead of the copyright message.
  */
-#define INTRO_CREDIT
+//#define INTRO_CREDIT
 
 /**
  * Spawns floombas on the title screen.
  */
-#define INTRO_FLOOMBAS
+//#define INTRO_FLOOMBAS
 
 /**
  * Enables widescreen (16:9) support.
@@ -60,12 +60,12 @@
 /**
  * Makes the coins ia8 64x64 instead of ia16 32x32. Uses new ia8 textures so that vanilla coins look better.
  */
-// #define IA8_COINS
+#define IA8_COINS
 
 /**
  * Similar to the above, but 30 FPS (Textures by InTheBeef, cleaned up by Arceveti).
  */
-// #define IA8_30FPS_COINS
+#define IA8_30FPS_COINS
 
 /**
  * Use .rej microcode for certain objects (experimental - only should be used when F3DEX_GBI_2 is defined).
@@ -108,7 +108,7 @@
  * Uses the star object's model in the star dance cutscene.
  * This has a side effect of making the star dance star also transparent when Mario collects a transparent star.
  */
-// #define STAR_DANCE_USES_STARS_MODEL
+#define STAR_DANCE_USES_STARS_MODEL
 
 /**
  * Disables all object shadows. You'll probably only want this either as a last resort for performance or if you're making a super stylized hack.
