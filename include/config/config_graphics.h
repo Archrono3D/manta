@@ -65,7 +65,7 @@
 /**
  * Similar to the above, but 30 FPS (Textures by InTheBeef, cleaned up by Arceveti).
  */
-#define IA8_30FPS_COINS
+//#define IA8_30FPS_COINS
 
 /**
  * Use .rej microcode for certain objects (experimental - only should be used when F3DEX_GBI_2 is defined).
