@@ -24,7 +24,7 @@ Gfx jrb_dl_Level_Mesh_mesh_layer_1_tri_0[] = {
 
 Gfx mat_jrb_dl_Grass_Example[] = {
 	gsSPLightColor(LIGHT_1, 0x00FF00FF),
-	gsSPLightColor(LIGHT_2, 0x7F7F7FFF),
+	gsSPLightColor(LIGHT_2, 0x007F00FF),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT, 0, 0, 0, SHADE, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
