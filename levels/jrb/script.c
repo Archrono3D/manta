@@ -55,6 +55,8 @@ const LevelScript level_jrb_entry[] = {
 		WARP_NODE(0xF1, LEVEL_CASTLE_GROUNDS, 0x01, 0x02, WARP_NO_CHECKPOINT),
 		OBJECT(MODEL_YELLOW_COIN, 9080, 0, -4411, 0, 0, 0, 0x00000000, bhvGeyser),
 		OBJECT(MODEL_STAR, -225, 356, -427, 0, 0, 0, 0x00000000, bhvStar),
+		OBJECT(MODEL_FLYGUY, -4082, 356, -151, 0, 0, 0, 0x00000000, bhvFlyGuy),
+		OBJECT(MODEL_YELLOW_COIN, -6380, 0, 6688, 0, 0, 0, 0x00000000, bhvGeyser),
 		MARIO_POS(0x01, 0, -6630, 475, 7469),
 		OBJECT(MODEL_NONE, -6630, 475, 7469, 0, 0, 0, (0x0A << 16), bhvSpinAirborneWarp),
 		TERRAIN(jrb_area_1_collision),
